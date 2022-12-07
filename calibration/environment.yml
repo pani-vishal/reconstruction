@@ -1,0 +1,14 @@
+name: pg_cal
+channels:
+  - defaults
+dependencies:
+  - python=3.10.4
+  - pip=21.2.4
+  - numpy
+  - scipy
+  - pandas
+  - matplotlib
+  - pip:
+    - tqdm
+    - opencv-contrib-python
+    - scikit-image
